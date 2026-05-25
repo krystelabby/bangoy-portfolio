@@ -1,0 +1,61 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-brand-orange: #f97316;
+  --color-brand-orange-dark: #ea580c;
+  --color-brand-purple: #7c3aed;
+  --color-brand-purple-dark: #6d28d9;
+  --color-brand-black: #0a0a0a;
+  --color-brand-gray: #f4f4f5;
+  --font-heading: 'Sora', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply m-0 min-h-screen overflow-x-hidden bg-white font-body text-brand-black antialiased;
+  }
+
+  #root {
+    @apply min-h-screen w-full;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-heading;
+  }
+
+  p,
+  li,
+  label,
+  input,
+  textarea,
+  button {
+    @apply font-body;
+  }
+}
+
+@layer utilities {
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+
+  .preserve-3d {
+    transform-style: preserve-3d;
+  }
+
+  .backface-hidden {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+}
