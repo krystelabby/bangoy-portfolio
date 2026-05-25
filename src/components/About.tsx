@@ -14,7 +14,7 @@ export function About() {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          <p className="font-body text-justify text-lg leading-relaxed text-zinc-700">
+          <p className="font-body text-left text-lg leading-relaxed text-zinc-700">
             {aboutText}
           </p>
           <div className="mt-8 grid gap-4 border-t border-zinc-100 pt-8 sm:grid-cols-3">
