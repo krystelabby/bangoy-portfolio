@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="400" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f97316"/>
+      <stop offset="0.5" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#0a0a0a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <circle cx="200" cy="150" r="70" fill="white" fill-opacity="0.2"/>
+  <path d="M80 340c0-66 54-120 120-120s120 54 120 120" fill="white" fill-opacity="0.2"/>
+  <text x="200" y="380" text-anchor="middle" fill="white" font-family="system-ui,sans-serif" font-size="14" opacity="0.8">Add profile.jpg</text>
+</svg>
